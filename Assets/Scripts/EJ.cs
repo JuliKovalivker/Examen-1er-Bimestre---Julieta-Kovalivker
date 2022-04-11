@@ -27,11 +27,11 @@ public class EJ : MonoBehaviour
     {
         if(nombreAlumno == "" || año < 1 || año > 5)
         {
-            Debug.Log("Error. El nombre o el año del alumno no es valido");
+            Debug.Log("Error. El nombre o el año del alumno no es valido.");
         }
         else if(año < 3 && orientacion != "")
         {
-            Debug.Log("Error. Aún estás en el ciclo básico");
+            Debug.Log("Error. Aún estás en el ciclo básico.");
         }
         else if(año > 3 && (orientacion != "T" && orientacion != "D" && orientacion != "G" && orientacion != "M" && orientacion != "H"))
         {
